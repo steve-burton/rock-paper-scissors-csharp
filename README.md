@@ -19,14 +19,13 @@ _Play Rock, Paper, Scissors by yourself or with a friend._
   _Input: "Scissors" & "Paper"_
   _Output: "Player 1 wins"_
 
+* _Spec Description: Return "Player 2" if Player 1 chooses "Rock" and Player 2 chooses "Paper"._
+  _Input: "Rock" & "Paper"_
+  _Output: "Player 2 wins"_
+
 * _Spec Description: Return "Player 2" if Player 1 chooses "Scissors" and Player 2 chooses "Rock"._
   _Input: "Scissors" & "Rock"_
   _Output: "Player 2 wins"_
-
-  * _Spec Description: Return "Player 2" if Player 1 chooses "Rock" and Player 2 chooses "Paper"._
-    _Input: "Rock" & "Paper"_
-    _Output: "Player 2 wins"_
-
 
 ##License
 
