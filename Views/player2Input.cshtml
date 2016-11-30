@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="/Content/css/styles.css">
+		<title>Rock, Paper, Scissors</title>
+	</head>
+	<body>
+		<div class="container">
+			<div class="jumbotron">
+				<h1>@Model.GetPlayer2Name(), it's your turn.</h1>
+        <h2>Make sure @Model.GetPlayer1Name() isn't looking...</h2>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<h2>Enter your choice!</h2>
+          <form action="/Rock-Paper-Scissors/result" method="post">
+            <div class="row">
+                <div class="col-md-4">
+                  <label><input type="radio" name="choice" value="1"><img src="/Content/img/1.jpg"></label>
+                </div>
+                <div class="col-md-4">
+                  <label><input type="radio" name="choice" value="2"><img src="/Content/img/2.jpg"></label>
+                </div>
+                <div class="col-md-4">
+                  <label><input type="radio" name="choice" value="3"><img src="/Content/img/3.jpg"></label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12 buttonDiv">
+                  <button type="submit" class="btn btn-success">Find out who won</button>
+                </div>
+              </div>
+            </form>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
