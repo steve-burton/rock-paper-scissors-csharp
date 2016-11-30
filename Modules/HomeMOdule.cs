@@ -1,8 +1,8 @@
 using Nancy;
 using System.Collections.Generic;
-using NameSpace.Objects;
+using RPS.Objects;
 
-namespace NameSpace
+namespace RPS
 {
 	public class HomeModule : NancyModule
 	{

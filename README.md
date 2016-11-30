@@ -1,30 +1,35 @@
-#{Project Title}
+#Rock, Paper, Scissors
 ===========================
 
-_{Brief Details}, {Date}_
+_Play Rock, Paper, Scissors; November 30, 2016_
 
-_By Levi Bibo_
+_By Levi Bibo and Steve Burton_
 
 ##Description
 
-_{Extended Details}_
-
-_[Link to site.](https://levibibo.github.io/{site-name})_
+_Play Rock, Paper, Scissors by yourself or with a friend._
 
 ##Specifications
 
-*{Specs}
+* _Spec Description: Return "draw" in case of a tie._
+  _Input: "Scissors" & "Scissors"_
+  _Output: "Draw"_
 
-##Support and contact details
+* _Spec Description: Return "Player 1" if Player 1 chooses "Scissors" and Player 2 chooses "Paper"._
+  _Input: "Scissors" & "Paper"_
+  _Output: "Player 1 wins"_
 
-Check out my GitHub account: [Levi Bibo.](https://www.github.com/levibibo)
+* _Spec Description: Return "Player 2" if Player 1 chooses "Scissors" and Player 2 chooses "Rock"._
+  _Input: "Scissors" & "Rock"_
+  _Output: "Player 2 wins"_
 
-##Technologies used
+  * _Spec Description: Return "Player 2" if Player 1 chooses "Rock" and Player 2 chooses "Paper"._
+    _Input: "Rock" & "Paper"_
+    _Output: "Player 2 wins"_
 
-_This site was built using {technologies}_
 
 ##License
 
 _Created under an MIT license._
 
-_Copyright (c) {2016} Levi Bibo_
+_Copyright (c) {2016} Levi Bibo and Steve Burton_
